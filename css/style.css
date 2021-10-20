@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+  background-color: rgb(156, 39, 176);
+  font-family: 'Open Sans', sans-serif;
+}
+
+section {
+  -webkit-box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
+  box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 100px;
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+section h1 {
+  font-size: 20px;
+}
+
+
+header {
+  background-image: url('https://cdn.cinepop.com.br/2021/02/pokemon-list.jpg');
+  background-size: cover;
+  height: 80px;
+  border-radius: 5px;
+}
+
+div {
+  border-radius: 5px;
+  padding: 15px;
+  border: 1px solid black;
+  background: #bac3d6;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(-50px);
+  border: 8px solid white;
+}
